@@ -2,9 +2,9 @@
 
 <div align=center>
     <a href="https://github.com/warmachine028/learning-GraphQL">
-        <img width="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNNMEw0gMcuUKOiT4V1EsyhDj9tv4St5BuRNfh7iV0BA&usqp=CAU&ec=48665699" alt="Learning GraphQL">
+        <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="Learning GraphQL">
     </a>
-    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A good one liner description here </p>
+    <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A query language for your API</p>
     <a src="https://github.com/warmachine028/learning-GraphQL/forks">
         <img alt="GitHub forks" src="https://img.shields.io/github/forks/warmachine028/learning-GraphQL">
     </a>
@@ -27,9 +27,7 @@
 
 ## Introduction
 
-- Go to `.github/workflows` and for each workflow replace learning-GraphQL with repo name.
-- Press `ctrl+F` and then replace all with repo-name.
-- Go to `settings/actions` and change "Workflow Permissions" from "Read repository contents ..." to "Read and Write ..."
+- Sole purpose of this repository is to experiment and learn GraphQL 
 
 ![line]
 
