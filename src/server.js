@@ -14,6 +14,6 @@ const schema = new GraphQLSchema({
     mutation: RootMutationType
 })
 
-
+app.get('/', (_, res) => res.send('Hello to Learning GraphQL'))
 app.use('/graphql', expressGraphQL({ schema, graphiql: true }))
 app.listen(PORT, () => console.log("Server Running"))
