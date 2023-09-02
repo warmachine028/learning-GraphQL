@@ -1,7 +1,7 @@
     updated on: 02th September 2023, Saturday
 
 <div align=center>
-    <a href="https://github.com/warmachine028/learning-GraphQL">
+    <a href="https://learning-graph-ql-pritam.vercel.app">
         <img width="200" src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="Learning GraphQL">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A query language for your API</p>
