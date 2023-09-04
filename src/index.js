@@ -1,10 +1,10 @@
-import express from "express"
 import { graphqlHTTP as expressGraphQL } from "express-graphql"
-import { GraphQLSchema } from 'graphql'
-import { RootQueryType, RootMutationType } from "./models/index.js"
-import dotenv from 'dotenv'
+import express from "express"
 import bodyParser from 'body-parser'
 import cors from 'cors'
+import dotenv from 'dotenv'
+import { GraphQLSchema } from 'graphql'
+import { RootQueryType, RootMutationType } from "./models/index.js"
 
 dotenv.config()
 
