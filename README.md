@@ -27,7 +27,7 @@
 
 ## Introduction
 
-- Sole purpose of this repository is to experiment and learn GraphQL 
+- Sole purpose of this repository is to experiment and learn GraphQL
 
 ![line]
 
