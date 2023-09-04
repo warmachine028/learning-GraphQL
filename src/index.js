@@ -2,6 +2,9 @@ import { graphqlHTTP as expressGraphQL } from "express-graphql"
 import express from "express"
 import { GraphQLSchema } from 'graphql'
 import { RootQueryType, RootMutationType } from "./models/index.js"
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const app = express()
 const PORT = process.env.PORT || 5000
