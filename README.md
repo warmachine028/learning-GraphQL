@@ -33,9 +33,34 @@
 
 ## Developement
 
+    ```sh
+    $> cd src
+    $> npm i
+    $> npm start
+
+    > learning-graphql@1.0.0 start
+    > nodemon index.js
+
+    [nodemon] 3.0.1
+    [nodemon] to restart at any time, enter `rs`
+    [nodemon] watching path(s): *.*
+    ...
+
+    ```
+
 ![line]
 
 ## Tech Stack Used
+
+- GraphQL: Querying
+- Node JS: Sever
+- Express: Routing
+- Nodemon: Development
+- Vercel: Deployment
+- Git: Version Control
+- Github: Repository Management
+
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 [markdown badges]: https://github.com/Ileriayo/markdown-badges
 
