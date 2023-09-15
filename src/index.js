@@ -10,6 +10,6 @@ const schema = new GraphQLSchema({
     mutation: RootMutationType
 })
 
-app.use('/graphql', createHandler({ schema, graphiql: true }))
+app.use('/graphql', createHandler({ schema }))
 app.get('/', (_, res) => res.send("<h2 style='margin:10; font-family:roboto,sans-serif; font-weight:normal;'>Hello to Learning GraphQL</h2>"))
 app.listen(PORT, () => console.log("Server Running"))
