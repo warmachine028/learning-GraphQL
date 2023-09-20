@@ -58,7 +58,7 @@ query ReviewQuery($id: ID!) {
 
 ## REQUEST-3
 
-- Query
+- Delete Mutation
 
 ```graphql
 mutation DeleteMutation($id: ID!) {
@@ -84,10 +84,10 @@ mutation DeleteMutation($id: ID!) {
 
 ## REQUEST-4
 
-- AddMutation
+- Add Mutation
 
 ```graphql
-mutation AddMutation($game: AddGameInput!) {
+mutation AddMutation($game: NewGameInput!) {
     addGame(game: $game){
         id
         title
@@ -107,7 +107,7 @@ mutation AddMutation($game: AddGameInput!) {
 }
 ```
 
-- GameQuery
+- Game Query
 
 ```graphql
 query GameQuery {
@@ -126,3 +126,31 @@ query GameQuery {
 
 - GameQuery
     ![response-4](https://github.com/warmachine028/learning-GraphQL/assets/75939390/ccc69bb4-7876-456c-b334-0600a07b0bfd)
+
+## REQUEST-5
+
+- Update Mutation
+
+```graphql
+mutation UpdateMutation($id: ID!, $edits: EditGameInput!) {
+    updateGame(id: $id, edits: $edits) {
+        title
+        platform
+    }
+}
+```
+
+- Fields
+
+```json
+{
+    "id": "3662",
+    "edits": {
+        "platform": ["android", "pc", "ps5", "xbox360", "xboxOne"]
+    }
+}
+```
+
+## RESPONSE-5
+
+![response-5](https://github.com/warmachine028/learning-GraphQL/assets/75939390/a4d91d65-b6a2-4f0a-9f74-f812a1115c28)

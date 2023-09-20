@@ -30,11 +30,17 @@ type Author {
 }
 
 type Mutation {
-	addGame(game: AddGameInput): Game
+	addGame(game: NewGameInput!): Game
 	deleteGame(id: ID!): [Game]
+    updateGame(id: ID!, edits: EditGameInput!): Game
 }
 
-input AddGameInput {
+input NewGameInput {
 	title: String!
 	platform: [String!]!
+}
+
+input EditGameInput {
+	title: String
+	platform: [String!]
 }

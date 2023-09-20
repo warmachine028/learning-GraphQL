@@ -61,6 +61,10 @@ const resolvers = {
             }
             db.games.push(game)
             return game
+        },
+        updateGame(_, args) {
+            db.games = db.games.map(game => game.id === args.id ? { ...game, ...args.edits } : game)
+            return db.games.find(game => game.id === args.id)
         }
     }
 }
