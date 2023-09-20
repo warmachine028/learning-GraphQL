@@ -3,7 +3,17 @@
 ## REQUEST
 
 ```sh
-GET http://localhost:5000/graphql?query={books {name, id}}
+GET http://localhost:4000
+```
+
+```graphql
+query GameQuery {
+    games() {
+        id
+        title
+        platform
+    }
+}
 ```
 
 ## RESPONSE
@@ -11,40 +21,38 @@ GET http://localhost:5000/graphql?query={books {name, id}}
 ```json
 {
     "data": {
-        "books": [
-            {
-                "name": "Harry Potter and the Chamber of Secrets",
-                "id": 1
-            },
-            {
-                "name": "Harry Potter and the Prisoner of Azkaban",
-                "id": 2
-            },
-            {
-                "name": "Harry Potter and the Goblet of Fire",
-                "id": 3
-            },
-            {
-                "name": "The Fellowship of the Ring",
-                "id": 4
-            },
-            {
-                "name": "The Two Towers",
-                "id": 5
-            },
-            {
-                "name": "The Return of the King",
-                "id": 6
-            },
-            {
-                "name": "The Way of Shadows",
-                "id": 7
-            },
-            {
-                "name": "Beyond the Shadows",
-                "id": 8
-            }
+        "games": [
+            { "id": "1", "title": "Zelda, Tears of the Kingdom", "platform": ["Switch"] },
+            { "id": "2", "title": "Final Fantasy 7 Remake", "platform": ["PS5", "Xbox"] },
+            { "id": "3", "title": "Elden Ring", "platform": ["PS5", "Xbox", "PC"] },
+            { "id": "4", "title": "Mario Kart", "platform": ["Switch"] },
+            { "id": "5", "title": "Pokemon Scarlet", "platform": ["PS5", "Xbox", "PC"] }
         ]
+    }
+}
+```
+
+## REQUEST-2
+
+```graphql
+query ReviewQuery($id: ID!) {
+    review(id: $id) {
+        rating
+        content  
+    }
+}
+
+```
+
+## RESPONSE-2
+
+```json
+{
+    "data": {
+        "review": {
+            "rating": 9,
+            "content": "lorem ipsum"
+        }
     }
 }
 ```
