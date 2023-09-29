@@ -3,8 +3,8 @@ import { fileURLToPath } from 'url'
 import { join } from "node:path"
 const { loadSchemaSync } = require("@graphql-tools/load")
 const { GraphQLFileLoader } = require("@graphql-tools/graphql-file-loader")
-import { ApolloServer } from "@apollo/server"
-import { startStandaloneServer } from "@apollo/server/standalone"
+const { ApolloServer } = require("@apollo/server")
+const { startStandaloneServer } = require("@apollo/server/standalone")
 import db from "./db/index.js"
 
 
