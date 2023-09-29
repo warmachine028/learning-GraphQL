@@ -1,11 +1,11 @@
-import path from 'path'
-import { fileURLToPath } from 'url'
-import { join } from "node:path"
+const path = require('path')
+const { fileURLToPath } = require('url')
+const { join } = require("node:path")
 const { loadSchemaSync } = require("@graphql-tools/load")
 const { GraphQLFileLoader } = require("@graphql-tools/graphql-file-loader")
 const { ApolloServer } = require("@apollo/server")
 const { startStandaloneServer } = require("@apollo/server/standalone")
-import db from "./db/index.js"
+const db = require("./db/index.js")
 
 
 const typeDefs = loadSchemaSync(join(path.dirname(fileURLToPath(import.meta.url)), 'schemas.graphql'), { loaders: [new GraphQLFileLoader()] })
