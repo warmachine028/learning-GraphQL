@@ -1,8 +1,8 @@
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { join } from "node:path"
-const { loadSchemaSync } = "@graphql-tools/load"
-import { GraphQLFileLoader } from "@graphql-tools/graphql-file-loader"
+const { loadSchemaSync } = require("@graphql-tools/load")
+const { GraphQLFileLoader } = require("@graphql-tools/graphql-file-loader")
 import { ApolloServer } from "@apollo/server"
 import { startStandaloneServer } from "@apollo/server/standalone"
 import db from "./db/index.js"
