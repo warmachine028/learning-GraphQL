@@ -8,7 +8,7 @@ const { startStandaloneServer } = require("@apollo/server/standalone")
 const db = require("./db/index.js")
 
 
-const typeDefs = loadSchemaSync(join(path.dirname(fileURLToPath(import.meta.url)), 'schemas.graphql'), { loaders: [new GraphQLFileLoader()] })
+const typeDefs = loadSchemaSync(join(path.dirname(''), 'schemas.graphql'), { loaders: [new GraphQLFileLoader()] })
 
 const resolvers = {
     Query: {
