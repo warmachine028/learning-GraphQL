@@ -6,7 +6,7 @@ updates:
       interval: daily
       time: "21:00"
   - package-ecosystem: npm #! enable for javascript & typescript
-    directory: "client"
+    directory: "src"
     schedule:
       interval: daily
       time: "21:00"
