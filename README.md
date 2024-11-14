@@ -1,4 +1,4 @@
-    updated on: 30th October 2024, Wednesday
+    updated on: 14th November 2024, Thursday
 
 <div align=center>
     <a href="https://learning-graph-ql-pritam.vercel.app">
@@ -93,4 +93,4 @@
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 
 [License]: https://github.com/warmachine028/learning-GraphQL/blob/main/LICENSE
-<!-- 30/10/24 -->
+<!-- 14/11/24 -->
