@@ -24,7 +24,7 @@
 	},
 	"homepage": "https://github.com/warmachine028/learning-graphQL#readme",
 	"dependencies": {
-		"@apollo/server": "^5.0.0",
+		"@apollo/server": "^5.1.0",
 		"@graphql-tools/graphql-file-loader": "^8.1.2",
 		"@graphql-tools/load": "^8.1.2",
 		"@graphql-tools/schema": "^10.0.22",
