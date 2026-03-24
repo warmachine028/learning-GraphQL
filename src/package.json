@@ -28,7 +28,7 @@
 		"@graphql-tools/graphql-file-loader": "^8.1.12",
 		"@graphql-tools/load": "^8.1.8",
 		"@graphql-tools/schema": "^10.0.31",
-		"graphql": "^16.13.1"
+		"graphql": "^16.13.2"
 	},
 	"devDependencies": {
 		"nodemon": "^3.1.14"
