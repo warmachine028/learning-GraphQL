@@ -27,7 +27,7 @@
 		"@apollo/server": "^5.5.0",
 		"@graphql-tools/graphql-file-loader": "^8.1.13",
 		"@graphql-tools/load": "^8.1.9",
-		"@graphql-tools/schema": "^10.0.31",
+		"@graphql-tools/schema": "^10.0.33",
 		"graphql": "^16.13.2"
 	},
 	"devDependencies": {
